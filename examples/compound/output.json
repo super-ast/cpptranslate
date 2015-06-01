@@ -1,0 +1,102 @@
+{
+    "id": 0,
+    "statements": [
+        {
+            "id": 1,
+            "line": 1,
+            "column": 1,
+            "type": "function-declaration",
+            "name": "main",
+            "return-type": {
+                "id": 2,
+                "name": "int"
+            },
+            "parameters": [],
+            "block": {
+                "id": 15,
+                "statements": [
+                    {
+                        "id": 3,
+                        "line": 2,
+                        "column": 3,
+                        "type": "variable-declaration",
+                        "name": "x",
+                        "data-type": {
+                            "id": 4,
+                            "name": "int"
+                        },
+                        "is-reference": false,
+                        "is-const": false,
+                        "init": {
+                            "type": "int",
+                            "value": 1,
+                            "id": 5,
+                            "line": 2,
+                            "column": 11
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "type": "+=",
+                        "left": {
+                            "type": "identifier",
+                            "value": "x",
+                            "id": 6,
+                            "line": 3,
+                            "column": 3
+                        },
+                        "right": {
+                            "type": "int",
+                            "value": 4,
+                            "id": 7,
+                            "line": 3,
+                            "column": 8
+                        },
+                        "line": 3,
+                        "column": 3
+                    },
+                    {
+                        "id": 11,
+                        "type": "+=",
+                        "left": {
+                            "type": "identifier",
+                            "value": "x",
+                            "id": 9,
+                            "line": 4,
+                            "column": 3
+                        },
+                        "right": {
+                            "type": "identifier",
+                            "value": "x",
+                            "id": 10,
+                            "line": 4,
+                            "column": 8
+                        },
+                        "line": 4,
+                        "column": 3
+                    },
+                    {
+                        "id": 14,
+                        "type": "%=",
+                        "left": {
+                            "type": "identifier",
+                            "value": "x",
+                            "id": 12,
+                            "line": 5,
+                            "column": 3
+                        },
+                        "right": {
+                            "type": "identifier",
+                            "value": "x",
+                            "id": 13,
+                            "line": 5,
+                            "column": 8
+                        },
+                        "line": 5,
+                        "column": 3
+                    }
+                ]
+            }
+        }
+    ]
+}

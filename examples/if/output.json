@@ -1,0 +1,169 @@
+{
+    "id": 0,
+    "statements": [
+        {
+            "id": 1,
+            "line": 1,
+            "column": 1,
+            "type": "function-declaration",
+            "name": "main",
+            "return-type": {
+                "id": 2,
+                "name": "int"
+            },
+            "parameters": [],
+            "block": {
+                "id": 27,
+                "statements": [
+                    {
+                        "id": 3,
+                        "line": 2,
+                        "column": 3,
+                        "type": "conditional",
+                        "condition": {
+                            "type": "bool",
+                            "value": true,
+                            "id": 4,
+                            "line": 2,
+                            "column": 7
+                        },
+                        "then": {
+                            "id": 7,
+                            "statements": [
+                                {
+                                    "id": 5,
+                                    "line": 3,
+                                    "column": 5,
+                                    "type": "variable-declaration",
+                                    "name": "x",
+                                    "data-type": {
+                                        "id": 6,
+                                        "name": "int"
+                                    },
+                                    "is-reference": false,
+                                    "is-const": false
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "line": 6,
+                        "column": 3,
+                        "type": "conditional",
+                        "condition": {
+                            "type": "bool",
+                            "value": true,
+                            "id": 9,
+                            "line": 6,
+                            "column": 7
+                        },
+                        "then": {
+                            "id": 12,
+                            "statements": [
+                                {
+                                    "id": 10,
+                                    "line": 7,
+                                    "column": 5,
+                                    "type": "variable-declaration",
+                                    "name": "x",
+                                    "data-type": {
+                                        "id": 11,
+                                        "name": "int"
+                                    },
+                                    "is-reference": false,
+                                    "is-const": false
+                                }
+                            ]
+                        },
+                        "else": {
+                            "id": 15,
+                            "statements": [
+                                {
+                                    "id": 13,
+                                    "line": 10,
+                                    "column": 5,
+                                    "type": "variable-declaration",
+                                    "name": "x",
+                                    "data-type": {
+                                        "id": 14,
+                                        "name": "int"
+                                    },
+                                    "is-reference": false,
+                                    "is-const": false
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "line": 13,
+                        "column": 3,
+                        "type": "conditional",
+                        "condition": {
+                            "type": "bool",
+                            "value": true,
+                            "id": 17,
+                            "line": 13,
+                            "column": 7
+                        },
+                        "then": {
+                            "id": 26,
+                            "statements": [
+                                {
+                                    "id": 18,
+                                    "line": 14,
+                                    "column": 5,
+                                    "type": "conditional",
+                                    "condition": {
+                                        "type": "bool",
+                                        "value": false,
+                                        "id": 19,
+                                        "line": 14,
+                                        "column": 9
+                                    },
+                                    "then": {
+                                        "id": 22,
+                                        "statements": [
+                                            {
+                                                "id": 20,
+                                                "line": 14,
+                                                "column": 16,
+                                                "type": "variable-declaration",
+                                                "name": "x",
+                                                "data-type": {
+                                                    "id": 21,
+                                                    "name": "int"
+                                                },
+                                                "is-reference": false,
+                                                "is-const": false
+                                            }
+                                        ]
+                                    },
+                                    "else": {
+                                        "id": 25,
+                                        "statements": [
+                                            {
+                                                "id": 23,
+                                                "line": 15,
+                                                "column": 10,
+                                                "type": "variable-declaration",
+                                                "name": "x",
+                                                "data-type": {
+                                                    "id": 24,
+                                                    "name": "int"
+                                                },
+                                                "is-reference": false,
+                                                "is-const": false
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

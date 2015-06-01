@@ -1,0 +1,254 @@
+{
+    "id": 0,
+    "statements": [
+        {
+            "id": 1,
+            "line": 3,
+            "column": 1,
+            "type": "function-declaration",
+            "name": "f",
+            "return-type": {
+                "id": 2,
+                "name": "void"
+            },
+            "parameters": [
+                {
+                    "id": 3,
+                    "line": 3,
+                    "column": 8,
+                    "name": "v",
+                    "data-type": {
+                        "id": 5,
+                        "name": "vector",
+                        "data-type": {
+                            "id": 4,
+                            "name": "int"
+                        }
+                    },
+                    "is-reference": false,
+                    "is-const": false
+                }
+            ],
+            "block": {
+                "id": 6,
+                "statements": []
+            }
+        },
+        {
+            "id": 7,
+            "line": 4,
+            "column": 1,
+            "type": "function-declaration",
+            "name": "f2",
+            "return-type": {
+                "id": 8,
+                "name": "void"
+            },
+            "parameters": [
+                {
+                    "id": 9,
+                    "line": 4,
+                    "column": 9,
+                    "name": "v",
+                    "data-type": {
+                        "id": 12,
+                        "name": "vector",
+                        "data-type": {
+                            "id": 11,
+                            "name": "vector",
+                            "data-type": {
+                                "id": 10,
+                                "name": "int"
+                            }
+                        }
+                    },
+                    "is-reference": false,
+                    "is-const": false
+                }
+            ],
+            "block": {
+                "id": 13,
+                "statements": []
+            }
+        },
+        {
+            "id": 14,
+            "line": 5,
+            "column": 1,
+            "type": "function-declaration",
+            "name": "f3",
+            "return-type": {
+                "id": 15,
+                "name": "void"
+            },
+            "parameters": [
+                {
+                    "id": 16,
+                    "line": 5,
+                    "column": 9,
+                    "name": "v",
+                    "data-type": {
+                        "id": 19,
+                        "name": "vector",
+                        "data-type": {
+                            "id": 18,
+                            "name": "vector",
+                            "data-type": {
+                                "id": 17,
+                                "name": "int"
+                            }
+                        }
+                    },
+                    "is-reference": false,
+                    "is-const": true
+                }
+            ],
+            "block": {
+                "id": 20,
+                "statements": []
+            }
+        },
+        {
+            "id": 21,
+            "line": 6,
+            "column": 1,
+            "type": "function-declaration",
+            "name": "f4",
+            "return-type": {
+                "id": 22,
+                "name": "void"
+            },
+            "parameters": [
+                {
+                    "id": 23,
+                    "line": 6,
+                    "column": 9,
+                    "name": "v",
+                    "data-type": {
+                        "id": 25,
+                        "name": "vector",
+                        "data-type": {
+                            "id": 24,
+                            "name": "int"
+                        }
+                    },
+                    "is-reference": false,
+                    "is-const": true
+                }
+            ],
+            "block": {
+                "id": 26,
+                "statements": []
+            }
+        },
+        {
+            "id": 27,
+            "line": 7,
+            "column": 1,
+            "type": "function-declaration",
+            "name": "f5",
+            "return-type": {
+                "id": 28,
+                "name": "void"
+            },
+            "parameters": [
+                {
+                    "id": 29,
+                    "line": 7,
+                    "column": 9,
+                    "name": "v",
+                    "data-type": {
+                        "id": 32,
+                        "name": "vector",
+                        "data-type": {
+                            "id": 31,
+                            "name": "vector",
+                            "data-type": {
+                                "id": 30,
+                                "name": "int"
+                            }
+                        }
+                    },
+                    "is-reference": true,
+                    "is-const": true
+                }
+            ],
+            "block": {
+                "id": 33,
+                "statements": []
+            }
+        },
+        {
+            "id": 34,
+            "line": 8,
+            "column": 1,
+            "type": "function-declaration",
+            "name": "main",
+            "return-type": {
+                "id": 35,
+                "name": "int"
+            },
+            "parameters": [],
+            "block": {
+                "id": 46,
+                "statements": [
+                    {
+                        "id": 36,
+                        "line": 9,
+                        "column": 3,
+                        "type": "variable-declaration",
+                        "name": "a",
+                        "data-type": {
+                            "id": 38,
+                            "name": "vector",
+                            "data-type": {
+                                "id": 37,
+                                "name": "int"
+                            }
+                        },
+                        "is-reference": false,
+                        "is-const": false
+                    },
+                    {
+                        "id": 39,
+                        "line": 10,
+                        "column": 3,
+                        "type": "variable-declaration",
+                        "name": "b",
+                        "data-type": {
+                            "id": 41,
+                            "name": "vector",
+                            "data-type": {
+                                "id": 40,
+                                "name": "int"
+                            }
+                        },
+                        "is-reference": false,
+                        "is-const": true
+                    },
+                    {
+                        "id": 42,
+                        "line": 11,
+                        "column": 3,
+                        "type": "variable-declaration",
+                        "name": "c",
+                        "data-type": {
+                            "id": 45,
+                            "name": "vector",
+                            "data-type": {
+                                "id": 44,
+                                "name": "vector",
+                                "data-type": {
+                                    "id": 43,
+                                    "name": "int"
+                                }
+                            }
+                        },
+                        "is-reference": false,
+                        "is-const": false
+                    }
+                ]
+            }
+        }
+    ]
+}

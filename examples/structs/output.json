@@ -1,0 +1,503 @@
+{
+    "id": 0,
+    "statements": [
+        {
+            "id": 1,
+            "line": 1,
+            "column": 1,
+            "type": "struct-declaration",
+            "name": "myStruct",
+            "attributes": [
+                {
+                    "id": 2,
+                    "line": 2,
+                    "column": 3,
+                    "name": "intMember1",
+                    "data-type": {
+                        "id": 3,
+                        "name": "int"
+                    }
+                },
+                {
+                    "id": 4,
+                    "line": 3,
+                    "column": 3,
+                    "name": "intMember2",
+                    "data-type": {
+                        "id": 5,
+                        "name": "int"
+                    }
+                },
+                {
+                    "id": 6,
+                    "line": 4,
+                    "column": 3,
+                    "name": "charMember3",
+                    "data-type": {
+                        "id": 7,
+                        "name": "int"
+                    }
+                },
+                {
+                    "id": 8,
+                    "line": 5,
+                    "column": 3,
+                    "name": "floatMember5",
+                    "data-type": {
+                        "id": 9,
+                        "name": "double"
+                    }
+                },
+                {
+                    "id": 10,
+                    "line": 6,
+                    "column": 3,
+                    "name": "doubleMember6",
+                    "data-type": {
+                        "id": 11,
+                        "name": "double"
+                    }
+                },
+                {
+                    "id": 12,
+                    "line": 7,
+                    "column": 3,
+                    "name": "longlongMember7",
+                    "data-type": {
+                        "id": 13,
+                        "name": "int"
+                    }
+                },
+                {
+                    "id": 14,
+                    "line": 8,
+                    "column": 3,
+                    "name": "unsignedlonglongMember8",
+                    "data-type": {
+                        "id": 15,
+                        "name": "int"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "line": 12,
+            "column": 1,
+            "type": "function-declaration",
+            "name": "main",
+            "return-type": {
+                "id": 17,
+                "name": "int"
+            },
+            "parameters": [],
+            "block": {
+                "id": 91,
+                "statements": [
+                    {
+                        "id": 18,
+                        "line": 13,
+                        "column": 3,
+                        "type": "variable-declaration",
+                        "name": "ms",
+                        "data-type": {
+                            "id": 19,
+                            "name": "myStruct"
+                        },
+                        "is-reference": false,
+                        "is-const": false
+                    },
+                    {
+                        "id": 25,
+                        "type": "=",
+                        "left": {
+                            "id": 23,
+                            "type": "[]",
+                            "left": {
+                                "type": "identifier",
+                                "value": "ms",
+                                "id": 20,
+                                "line": 14,
+                                "column": 3
+                            },
+                            "right": {
+                                "id": 21,
+                                "line": 2,
+                                "column": 3,
+                                "type": "string",
+                                "value": "intMember1"
+                            },
+                            "line": 14,
+                            "column": 3
+                        },
+                        "right": {
+                            "type": "int",
+                            "value": 1,
+                            "id": 24,
+                            "line": 14,
+                            "column": 19
+                        },
+                        "line": 14,
+                        "column": 3
+                    },
+                    {
+                        "id": 36,
+                        "type": "=",
+                        "left": {
+                            "id": 29,
+                            "type": "[]",
+                            "left": {
+                                "type": "identifier",
+                                "value": "ms",
+                                "id": 26,
+                                "line": 15,
+                                "column": 3
+                            },
+                            "right": {
+                                "id": 27,
+                                "line": 3,
+                                "column": 3,
+                                "type": "string",
+                                "value": "intMember2"
+                            },
+                            "line": 15,
+                            "column": 3
+                        },
+                        "right": {
+                            "id": 35,
+                            "type": "+",
+                            "left": {
+                                "id": 33,
+                                "type": "[]",
+                                "left": {
+                                    "type": "identifier",
+                                    "value": "ms",
+                                    "id": 30,
+                                    "line": 15,
+                                    "column": 19
+                                },
+                                "right": {
+                                    "id": 31,
+                                    "line": 2,
+                                    "column": 3,
+                                    "type": "string",
+                                    "value": "intMember1"
+                                },
+                                "line": 15,
+                                "column": 19
+                            },
+                            "right": {
+                                "type": "int",
+                                "value": 1,
+                                "id": 34,
+                                "line": 15,
+                                "column": 35
+                            },
+                            "line": 15,
+                            "column": 19
+                        },
+                        "line": 15,
+                        "column": 3
+                    },
+                    {
+                        "id": 42,
+                        "type": "=",
+                        "left": {
+                            "id": 40,
+                            "type": "[]",
+                            "left": {
+                                "type": "identifier",
+                                "value": "ms",
+                                "id": 37,
+                                "line": 16,
+                                "column": 3
+                            },
+                            "right": {
+                                "id": 38,
+                                "line": 4,
+                                "column": 3,
+                                "type": "string",
+                                "value": "charMember3"
+                            },
+                            "line": 16,
+                            "column": 3
+                        },
+                        "right": {
+                            "type": "string",
+                            "value": "5",
+                            "id": 41,
+                            "line": 16,
+                            "column": 20
+                        },
+                        "line": 16,
+                        "column": 3
+                    },
+                    {
+                        "id": 48,
+                        "type": "=",
+                        "left": {
+                            "id": 46,
+                            "type": "[]",
+                            "left": {
+                                "type": "identifier",
+                                "value": "ms",
+                                "id": 43,
+                                "line": 17,
+                                "column": 3
+                            },
+                            "right": {
+                                "id": 44,
+                                "line": 5,
+                                "column": 3,
+                                "type": "string",
+                                "value": "floatMember5"
+                            },
+                            "line": 17,
+                            "column": 3
+                        },
+                        "right": {
+                            "type": "double",
+                            "value": 2.3429999351501467,
+                            "id": 47,
+                            "line": 17,
+                            "column": 21
+                        },
+                        "line": 17,
+                        "column": 3
+                    },
+                    {
+                        "id": 54,
+                        "type": "=",
+                        "left": {
+                            "id": 52,
+                            "type": "[]",
+                            "left": {
+                                "type": "identifier",
+                                "value": "ms",
+                                "id": 49,
+                                "line": 18,
+                                "column": 3
+                            },
+                            "right": {
+                                "id": 50,
+                                "line": 5,
+                                "column": 3,
+                                "type": "string",
+                                "value": "floatMember5"
+                            },
+                            "line": 18,
+                            "column": 3
+                        },
+                        "right": {
+                            "type": "double",
+                            "value": 2.343,
+                            "id": 53,
+                            "line": 18,
+                            "column": 21
+                        },
+                        "line": 18,
+                        "column": 3
+                    },
+                    {
+                        "id": 60,
+                        "type": "=",
+                        "left": {
+                            "id": 58,
+                            "type": "[]",
+                            "left": {
+                                "type": "identifier",
+                                "value": "ms",
+                                "id": 55,
+                                "line": 19,
+                                "column": 3
+                            },
+                            "right": {
+                                "id": 56,
+                                "line": 6,
+                                "column": 3,
+                                "type": "string",
+                                "value": "doubleMember6"
+                            },
+                            "line": 19,
+                            "column": 3
+                        },
+                        "right": {
+                            "type": "int",
+                            "value": 1,
+                            "id": 59,
+                            "line": 19,
+                            "column": 22
+                        },
+                        "line": 19,
+                        "column": 3
+                    },
+                    {
+                        "id": 66,
+                        "type": "=",
+                        "left": {
+                            "id": 64,
+                            "type": "[]",
+                            "left": {
+                                "type": "identifier",
+                                "value": "ms",
+                                "id": 61,
+                                "line": 20,
+                                "column": 3
+                            },
+                            "right": {
+                                "id": 62,
+                                "line": 6,
+                                "column": 3,
+                                "type": "string",
+                                "value": "doubleMember6"
+                            },
+                            "line": 20,
+                            "column": 3
+                        },
+                        "right": {
+                            "type": "double",
+                            "value": 1.0,
+                            "id": 65,
+                            "line": 20,
+                            "column": 22
+                        },
+                        "line": 20,
+                        "column": 3
+                    },
+                    {
+                        "id": 72,
+                        "type": "=",
+                        "left": {
+                            "id": 70,
+                            "type": "[]",
+                            "left": {
+                                "type": "identifier",
+                                "value": "ms",
+                                "id": 67,
+                                "line": 21,
+                                "column": 3
+                            },
+                            "right": {
+                                "id": 68,
+                                "line": 6,
+                                "column": 3,
+                                "type": "string",
+                                "value": "doubleMember6"
+                            },
+                            "line": 21,
+                            "column": 3
+                        },
+                        "right": {
+                            "type": "double",
+                            "value": 1.0,
+                            "id": 71,
+                            "line": 21,
+                            "column": 22
+                        },
+                        "line": 21,
+                        "column": 3
+                    },
+                    {
+                        "id": 78,
+                        "type": "=",
+                        "left": {
+                            "id": 76,
+                            "type": "[]",
+                            "left": {
+                                "type": "identifier",
+                                "value": "ms",
+                                "id": 73,
+                                "line": 22,
+                                "column": 3
+                            },
+                            "right": {
+                                "id": 74,
+                                "line": 7,
+                                "column": 3,
+                                "type": "string",
+                                "value": "longlongMember7"
+                            },
+                            "line": 22,
+                            "column": 3
+                        },
+                        "right": {
+                            "type": "int",
+                            "value": 1,
+                            "id": 77,
+                            "line": 22,
+                            "column": 24
+                        },
+                        "line": 22,
+                        "column": 3
+                    },
+                    {
+                        "id": 84,
+                        "type": "=",
+                        "left": {
+                            "id": 82,
+                            "type": "[]",
+                            "left": {
+                                "type": "identifier",
+                                "value": "ms",
+                                "id": 79,
+                                "line": 23,
+                                "column": 3
+                            },
+                            "right": {
+                                "id": 80,
+                                "line": 7,
+                                "column": 3,
+                                "type": "string",
+                                "value": "longlongMember7"
+                            },
+                            "line": 23,
+                            "column": 3
+                        },
+                        "right": {
+                            "type": "int",
+                            "value": 1,
+                            "id": 83,
+                            "line": 23,
+                            "column": 24
+                        },
+                        "line": 23,
+                        "column": 3
+                    },
+                    {
+                        "id": 90,
+                        "type": "=",
+                        "left": {
+                            "id": 88,
+                            "type": "[]",
+                            "left": {
+                                "type": "identifier",
+                                "value": "ms",
+                                "id": 85,
+                                "line": 24,
+                                "column": 3
+                            },
+                            "right": {
+                                "id": 86,
+                                "line": 8,
+                                "column": 3,
+                                "type": "string",
+                                "value": "unsignedlonglongMember8"
+                            },
+                            "line": 24,
+                            "column": 3
+                        },
+                        "right": {
+                            "type": "int",
+                            "value": 100000000000000000,
+                            "id": 89,
+                            "line": 24,
+                            "column": 32
+                        },
+                        "line": 24,
+                        "column": 3
+                    }
+                ]
+            }
+        }
+    ]
+}

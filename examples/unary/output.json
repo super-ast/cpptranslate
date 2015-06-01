@@ -1,0 +1,270 @@
+{
+    "id": 0,
+    "statements": [
+        {
+            "id": 1,
+            "line": 1,
+            "column": 1,
+            "type": "function-declaration",
+            "name": "main",
+            "return-type": {
+                "id": 2,
+                "name": "int"
+            },
+            "parameters": [],
+            "block": {
+                "id": 41,
+                "statements": [
+                    {
+                        "id": 3,
+                        "line": 2,
+                        "column": 3,
+                        "type": "variable-declaration",
+                        "name": "a",
+                        "data-type": {
+                            "id": 4,
+                            "name": "int"
+                        },
+                        "is-reference": false,
+                        "is-const": false,
+                        "init": {
+                            "type": "int",
+                            "value": 1,
+                            "id": 5,
+                            "line": 2,
+                            "column": 11
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "line": 3,
+                        "column": 3,
+                        "type": "_++",
+                        "expression": {
+                            "type": "identifier",
+                            "value": "a",
+                            "id": 6,
+                            "line": 3,
+                            "column": 3
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "line": 4,
+                        "column": 3,
+                        "type": "++_",
+                        "expression": {
+                            "type": "identifier",
+                            "value": "a",
+                            "id": 8,
+                            "line": 4,
+                            "column": 5
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "line": 5,
+                        "column": 3,
+                        "type": "--_",
+                        "expression": {
+                            "type": "identifier",
+                            "value": "a",
+                            "id": 10,
+                            "line": 5,
+                            "column": 5
+                        }
+                    },
+                    {
+                        "id": 13,
+                        "line": 6,
+                        "column": 3,
+                        "type": "_--",
+                        "expression": {
+                            "type": "identifier",
+                            "value": "a",
+                            "id": 12,
+                            "line": 6,
+                            "column": 3
+                        }
+                    },
+                    {
+                        "id": 17,
+                        "type": "=",
+                        "left": {
+                            "type": "identifier",
+                            "value": "a",
+                            "id": 14,
+                            "line": 7,
+                            "column": 3
+                        },
+                        "right": {
+                            "id": 16,
+                            "line": 7,
+                            "column": 7,
+                            "type": "neg",
+                            "expression": {
+                                "type": "identifier",
+                                "value": "a",
+                                "id": 15,
+                                "line": 7,
+                                "column": 8
+                            }
+                        },
+                        "line": 7,
+                        "column": 3
+                    },
+                    {
+                        "id": 23,
+                        "type": "=",
+                        "left": {
+                            "type": "identifier",
+                            "value": "a",
+                            "id": 18,
+                            "line": 8,
+                            "column": 3
+                        },
+                        "right": {
+                            "id": 22,
+                            "type": "+",
+                            "left": {
+                                "type": "identifier",
+                                "value": "a",
+                                "id": 19,
+                                "line": 8,
+                                "column": 7
+                            },
+                            "right": {
+                                "id": 21,
+                                "line": 8,
+                                "column": 11,
+                                "type": "neg",
+                                "expression": {
+                                    "type": "identifier",
+                                    "value": "a",
+                                    "id": 20,
+                                    "line": 8,
+                                    "column": 12
+                                }
+                            },
+                            "line": 8,
+                            "column": 7
+                        },
+                        "line": 8,
+                        "column": 3
+                    },
+                    {
+                        "id": 29,
+                        "type": "=",
+                        "left": {
+                            "type": "identifier",
+                            "value": "a",
+                            "id": 24,
+                            "line": 9,
+                            "column": 3
+                        },
+                        "right": {
+                            "id": 28,
+                            "type": "-",
+                            "left": {
+                                "type": "identifier",
+                                "value": "a",
+                                "id": 25,
+                                "line": 9,
+                                "column": 7
+                            },
+                            "right": {
+                                "id": 27,
+                                "line": 9,
+                                "column": 11,
+                                "type": "pos",
+                                "expression": {
+                                    "type": "identifier",
+                                    "value": "a",
+                                    "id": 26,
+                                    "line": 9,
+                                    "column": 12
+                                }
+                            },
+                            "line": 9,
+                            "column": 7
+                        },
+                        "line": 9,
+                        "column": 3
+                    },
+                    {
+                        "id": 30,
+                        "line": 10,
+                        "column": 3,
+                        "type": "variable-declaration",
+                        "name": "b",
+                        "data-type": {
+                            "id": 31,
+                            "name": "bool"
+                        },
+                        "is-reference": false,
+                        "is-const": false,
+                        "init": {
+                            "type": "bool",
+                            "value": true,
+                            "id": 32,
+                            "line": 10,
+                            "column": 12
+                        }
+                    },
+                    {
+                        "id": 36,
+                        "type": "=",
+                        "left": {
+                            "type": "identifier",
+                            "value": "b",
+                            "id": 33,
+                            "line": 11,
+                            "column": 3
+                        },
+                        "right": {
+                            "id": 35,
+                            "line": 11,
+                            "column": 7,
+                            "type": "not",
+                            "expression": {
+                                "type": "identifier",
+                                "value": "b",
+                                "id": 34,
+                                "line": 11,
+                                "column": 11
+                            }
+                        },
+                        "line": 11,
+                        "column": 3
+                    },
+                    {
+                        "id": 40,
+                        "type": "=",
+                        "left": {
+                            "type": "identifier",
+                            "value": "b",
+                            "id": 37,
+                            "line": 12,
+                            "column": 3
+                        },
+                        "right": {
+                            "id": 39,
+                            "line": 12,
+                            "column": 7,
+                            "type": "not",
+                            "expression": {
+                                "type": "identifier",
+                                "value": "b",
+                                "id": 38,
+                                "line": 12,
+                                "column": 8
+                            }
+                        },
+                        "line": 12,
+                        "column": 3
+                    }
+                ]
+            }
+        }
+    ]
+}

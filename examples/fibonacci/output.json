@@ -1,0 +1,149 @@
+{
+    "id": 0,
+    "statements": [
+        {
+            "id": 1,
+            "line": 1,
+            "column": 1,
+            "type": "function-declaration",
+            "name": "fibonacci",
+            "return-type": {
+                "id": 2,
+                "name": "int"
+            },
+            "parameters": [
+                {
+                    "id": 3,
+                    "line": 1,
+                    "column": 15,
+                    "name": "n",
+                    "data-type": {
+                        "id": 4,
+                        "name": "int"
+                    },
+                    "is-reference": false,
+                    "is-const": false
+                }
+            ],
+            "block": {
+                "id": 22,
+                "statements": [
+                    {
+                        "id": 5,
+                        "line": 2,
+                        "column": 3,
+                        "type": "conditional",
+                        "condition": {
+                            "id": 8,
+                            "type": "<=",
+                            "left": {
+                                "type": "identifier",
+                                "value": "n",
+                                "id": 6,
+                                "line": 2,
+                                "column": 7
+                            },
+                            "right": {
+                                "type": "int",
+                                "value": 1,
+                                "id": 7,
+                                "line": 2,
+                                "column": 12
+                            },
+                            "line": 2,
+                            "column": 7
+                        },
+                        "then": {
+                            "id": 11,
+                            "statements": [
+                                {
+                                    "id": 9,
+                                    "line": 2,
+                                    "column": 15,
+                                    "type": "return",
+                                    "expression": {
+                                        "type": "identifier",
+                                        "value": "n",
+                                        "id": 10,
+                                        "line": 2,
+                                        "column": 22
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "line": 3,
+                        "column": 3,
+                        "type": "return",
+                        "expression": {
+                            "id": 21,
+                            "type": "+",
+                            "left": {
+                                "id": 13,
+                                "line": 3,
+                                "column": 10,
+                                "type": "function-call",
+                                "name": "fibonacci",
+                                "arguments": [
+                                    {
+                                        "id": 16,
+                                        "type": "-",
+                                        "left": {
+                                            "type": "identifier",
+                                            "value": "n",
+                                            "id": 14,
+                                            "line": 3,
+                                            "column": 20
+                                        },
+                                        "right": {
+                                            "type": "int",
+                                            "value": 1,
+                                            "id": 15,
+                                            "line": 3,
+                                            "column": 22
+                                        },
+                                        "line": 3,
+                                        "column": 20
+                                    }
+                                ]
+                            },
+                            "right": {
+                                "id": 17,
+                                "line": 3,
+                                "column": 27,
+                                "type": "function-call",
+                                "name": "fibonacci",
+                                "arguments": [
+                                    {
+                                        "id": 20,
+                                        "type": "-",
+                                        "left": {
+                                            "type": "identifier",
+                                            "value": "n",
+                                            "id": 18,
+                                            "line": 3,
+                                            "column": 37
+                                        },
+                                        "right": {
+                                            "type": "int",
+                                            "value": 2,
+                                            "id": 19,
+                                            "line": 3,
+                                            "column": 39
+                                        },
+                                        "line": 3,
+                                        "column": 37
+                                    }
+                                ]
+                            },
+                            "line": 3,
+                            "column": 10
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

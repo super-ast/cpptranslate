@@ -1,0 +1,175 @@
+{
+    "id": 0,
+    "statements": [
+        {
+            "id": 1,
+            "line": 7,
+            "column": 1,
+            "type": "function-declaration",
+            "name": "f",
+            "return-type": {
+                "id": 2,
+                "name": "void"
+            },
+            "parameters": [
+                {
+                    "id": 3,
+                    "line": 7,
+                    "column": 8,
+                    "name": "x",
+                    "data-type": {
+                        "id": 4,
+                        "name": "int"
+                    },
+                    "is-reference": false,
+                    "is-const": false
+                }
+            ],
+            "block": {
+                "id": 5,
+                "statements": []
+            }
+        },
+        {
+            "id": 6,
+            "line": 8,
+            "column": 1,
+            "type": "function-declaration",
+            "name": "main",
+            "return-type": {
+                "id": 7,
+                "name": "int"
+            },
+            "parameters": [],
+            "block": {
+                "id": 26,
+                "statements": [
+                    {
+                        "id": 8,
+                        "line": 9,
+                        "column": 3,
+                        "type": "variable-declaration",
+                        "name": "v",
+                        "data-type": {
+                            "id": 10,
+                            "name": "vector",
+                            "data-type": {
+                                "id": 9,
+                                "name": "int"
+                            }
+                        },
+                        "is-reference": false,
+                        "is-const": false
+                    },
+                    {
+                        "id": 13,
+                        "type": ".",
+                        "left": {
+                            "type": "identifier",
+                            "value": "v",
+                            "id": 12,
+                            "line": 10,
+                            "column": 3
+                        },
+                        "right": {
+                            "id": 11,
+                            "line": 10,
+                            "column": 3,
+                            "type": "function-call",
+                            "name": "size",
+                            "arguments": []
+                        },
+                        "line": 10,
+                        "column": 3
+                    },
+                    {
+                        "id": 18,
+                        "type": ".",
+                        "left": {
+                            "type": "identifier",
+                            "value": "v",
+                            "id": 17,
+                            "line": 11,
+                            "column": 3
+                        },
+                        "right": {
+                            "id": 14,
+                            "line": 11,
+                            "column": 3,
+                            "type": "function-call",
+                            "name": "resize",
+                            "arguments": [
+                                {
+                                    "type": "int",
+                                    "value": 0,
+                                    "id": 15,
+                                    "line": 11,
+                                    "column": 12
+                                },
+                                {
+                                    "type": "int",
+                                    "value": 0,
+                                    "id": 16,
+                                    "line": 11,
+                                    "column": 15
+                                }
+                            ]
+                        },
+                        "line": 11,
+                        "column": 3
+                    },
+                    {
+                        "id": 19,
+                        "line": 12,
+                        "column": 3,
+                        "type": "function-call",
+                        "name": "f",
+                        "arguments": [
+                            {
+                                "type": "int",
+                                "value": 0,
+                                "id": 20,
+                                "line": 12,
+                                "column": 5
+                            }
+                        ]
+                    },
+                    {
+                        "id": 21,
+                        "line": 14,
+                        "column": 3,
+                        "type": "variable-declaration",
+                        "name": "s",
+                        "data-type": {
+                            "id": 22,
+                            "name": "string"
+                        },
+                        "is-reference": false,
+                        "is-const": false
+                    },
+                    {
+                        "id": 25,
+                        "type": ".",
+                        "left": {
+                            "type": "identifier",
+                            "value": "s",
+                            "id": 24,
+                            "line": 15,
+                            "column": 3
+                        },
+                        "right": {
+                            "id": 23,
+                            "line": 15,
+                            "column": 3,
+                            "type": "function-call",
+                            "name": "size",
+                            "arguments": []
+                        },
+                        "line": 15,
+                        "column": 3
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,196 @@
+{
+    "id": 0,
+    "statements": [
+        {
+            "id": 1,
+            "line": 1,
+            "column": 1,
+            "type": "function-declaration",
+            "name": "main",
+            "return-type": {
+                "id": 2,
+                "name": "int"
+            },
+            "parameters": [],
+            "block": {
+                "id": 35,
+                "statements": [
+                    {
+                        "id": 3,
+                        "line": 4,
+                        "column": 3,
+                        "type": "while",
+                        "condition": {
+                            "id": 4,
+                            "line": 4,
+                            "column": 9,
+                            "type": "error",
+                            "value": "condition-variable",
+                            "description": "Variable declarations are not allowed in while conditions"
+                        },
+                        "block": {
+                            "id": 8,
+                            "statements": [
+                                {
+                                    "id": 7,
+                                    "type": "=",
+                                    "left": {
+                                        "type": "identifier",
+                                        "value": "x",
+                                        "id": 5,
+                                        "line": 5,
+                                        "column": 5
+                                    },
+                                    "right": {
+                                        "type": "int",
+                                        "value": 1,
+                                        "id": 6,
+                                        "line": 5,
+                                        "column": 9
+                                    },
+                                    "line": 5,
+                                    "column": 5
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "line": 9,
+                        "column": 3,
+                        "type": "conditional",
+                        "condition": {
+                            "id": 10,
+                            "line": 9,
+                            "column": 7,
+                            "type": "error",
+                            "value": "condition-variable",
+                            "description": "Variable declarations are not allowed in if conditions"
+                        },
+                        "then": {
+                            "id": 14,
+                            "statements": [
+                                {
+                                    "id": 13,
+                                    "type": "=",
+                                    "left": {
+                                        "type": "identifier",
+                                        "value": "x",
+                                        "id": 11,
+                                        "line": 10,
+                                        "column": 5
+                                    },
+                                    "right": {
+                                        "type": "int",
+                                        "value": 1,
+                                        "id": 12,
+                                        "line": 10,
+                                        "column": 9
+                                    },
+                                    "line": 10,
+                                    "column": 5
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": 15,
+                        "line": 14,
+                        "column": 3,
+                        "type": "for",
+                        "init": {
+                            "id": 22,
+                            "line": 14,
+                            "column": 3,
+                            "type": "error",
+                            "value": "compoundStmt",
+                            "description": "Compound Statements are not allowed in for loop init"
+                        },
+                        "condition": {
+                            "id": 25,
+                            "type": "<",
+                            "left": {
+                                "type": "identifier",
+                                "value": "i",
+                                "id": 23,
+                                "line": 14,
+                                "column": 26
+                            },
+                            "right": {
+                                "type": "int",
+                                "value": 3,
+                                "id": 24,
+                                "line": 14,
+                                "column": 30
+                            },
+                            "line": 14,
+                            "column": 26
+                        },
+                        "post": {
+                            "id": 26,
+                            "line": 14,
+                            "column": 33,
+                            "type": "warning",
+                            "value": "comma operator",
+                            "description": "We recommend not using the comma operator!"
+                        },
+                        "block": {
+                            "id": 27,
+                            "statements": []
+                        }
+                    },
+                    {
+                        "id": 28,
+                        "line": 17,
+                        "column": 3,
+                        "type": "error",
+                        "value": "do/while statement",
+                        "description": "Do/While statements are not allowed"
+                    },
+                    {
+                        "id": 29,
+                        "line": 22,
+                        "column": 3,
+                        "type": "while",
+                        "condition": {
+                            "type": "int",
+                            "value": 1,
+                            "id": 30,
+                            "line": 22,
+                            "column": 10
+                        },
+                        "block": {
+                            "id": 32,
+                            "statements": [
+                                {
+                                    "id": 31,
+                                    "line": 23,
+                                    "column": 5,
+                                    "type": "error",
+                                    "value": "break statement",
+                                    "description": "Breaks are not allowed"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": 33,
+                        "line": 27,
+                        "column": 3,
+                        "type": "error",
+                        "value": "goto",
+                        "description": "Goto is not allowed"
+                    },
+                    {
+                        "id": 34,
+                        "line": 28,
+                        "column": 3,
+                        "type": "error",
+                        "value": "label",
+                        "description": "Labels are not allowed"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,275 @@
+{
+    "id": 0,
+    "statements": [
+        {
+            "id": 1,
+            "line": 7,
+            "column": 1,
+            "type": "function-declaration",
+            "name": "f",
+            "return-type": {
+                "id": 2,
+                "name": "int"
+            },
+            "parameters": [],
+            "block": {
+                "id": 5,
+                "statements": [
+                    {
+                        "id": 3,
+                        "line": 8,
+                        "column": 3,
+                        "type": "return",
+                        "expression": {
+                            "type": "int",
+                            "value": 1,
+                            "id": 4,
+                            "line": 8,
+                            "column": 10
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "line": 11,
+            "column": 1,
+            "type": "function-declaration",
+            "name": "main",
+            "return-type": {
+                "id": 7,
+                "name": "int"
+            },
+            "parameters": [],
+            "block": {
+                "id": 42,
+                "statements": [
+                    {
+                        "id": 8,
+                        "line": 12,
+                        "column": 3,
+                        "type": "variable-declaration",
+                        "name": "v",
+                        "data-type": {
+                            "id": 10,
+                            "name": "vector",
+                            "data-type": {
+                                "id": 9,
+                                "name": "int"
+                            }
+                        },
+                        "is-reference": false,
+                        "is-const": false
+                    },
+                    {
+                        "id": 11,
+                        "line": 13,
+                        "column": 3,
+                        "type": "variable-declaration",
+                        "name": "m",
+                        "data-type": {
+                            "id": 14,
+                            "name": "vector",
+                            "data-type": {
+                                "id": 13,
+                                "name": "vector",
+                                "data-type": {
+                                    "id": 12,
+                                    "name": "int"
+                                }
+                            }
+                        },
+                        "is-reference": false,
+                        "is-const": false
+                    },
+                    {
+                        "id": 15,
+                        "line": 14,
+                        "column": 3,
+                        "type": "variable-declaration",
+                        "name": "x",
+                        "data-type": {
+                            "id": 16,
+                            "name": "int"
+                        },
+                        "is-reference": false,
+                        "is-const": false,
+                        "init": {
+                            "id": 19,
+                            "type": ".",
+                            "left": {
+                                "type": "identifier",
+                                "value": "m",
+                                "id": 18,
+                                "line": 14,
+                                "column": 11
+                            },
+                            "right": {
+                                "id": 17,
+                                "line": 14,
+                                "column": 11,
+                                "type": "function-call",
+                                "name": "size",
+                                "arguments": []
+                            },
+                            "line": 14,
+                            "column": 11
+                        }
+                    },
+                    {
+                        "id": 20,
+                        "line": 15,
+                        "column": 3,
+                        "type": "variable-declaration",
+                        "name": "y",
+                        "data-type": {
+                            "id": 21,
+                            "name": "int"
+                        },
+                        "is-reference": false,
+                        "is-const": false,
+                        "init": {
+                            "id": 24,
+                            "type": ".",
+                            "left": {
+                                "type": "identifier",
+                                "value": "v",
+                                "id": 23,
+                                "line": 15,
+                                "column": 14
+                            },
+                            "right": {
+                                "id": 22,
+                                "line": 15,
+                                "column": 14,
+                                "type": "function-call",
+                                "name": "size",
+                                "arguments": []
+                            },
+                            "line": 15,
+                            "column": 14
+                        }
+                    },
+                    {
+                        "id": 27,
+                        "type": ".",
+                        "left": {
+                            "type": "identifier",
+                            "value": "m",
+                            "id": 26,
+                            "line": 16,
+                            "column": 3
+                        },
+                        "right": {
+                            "id": 25,
+                            "line": 16,
+                            "column": 3,
+                            "type": "function-call",
+                            "name": "size",
+                            "arguments": []
+                        },
+                        "line": 16,
+                        "column": 3
+                    },
+                    {
+                        "id": 28,
+                        "line": 17,
+                        "column": 3,
+                        "type": "function-call",
+                        "name": "f",
+                        "arguments": []
+                    },
+                    {
+                        "id": 29,
+                        "line": 18,
+                        "column": 3,
+                        "type": "variable-declaration",
+                        "name": "s",
+                        "data-type": {
+                            "id": 30,
+                            "name": "string"
+                        },
+                        "is-reference": false,
+                        "is-const": false,
+                        "init": {
+                            "type": "string",
+                            "value": "12312321",
+                            "id": 31,
+                            "line": 18,
+                            "column": 14
+                        }
+                    },
+                    {
+                        "id": 36,
+                        "type": "=",
+                        "left": {
+                            "type": "identifier",
+                            "value": "x",
+                            "id": 32,
+                            "line": 19,
+                            "column": 3
+                        },
+                        "right": {
+                            "id": 35,
+                            "type": ".",
+                            "left": {
+                                "type": "identifier",
+                                "value": "s",
+                                "id": 34,
+                                "line": 19,
+                                "column": 7
+                            },
+                            "right": {
+                                "id": 33,
+                                "line": 19,
+                                "column": 7,
+                                "type": "function-call",
+                                "name": "empty",
+                                "arguments": []
+                            },
+                            "line": 19,
+                            "column": 7
+                        },
+                        "line": 19,
+                        "column": 3
+                    },
+                    {
+                        "id": 37,
+                        "line": 20,
+                        "column": 3,
+                        "type": "variable-declaration",
+                        "name": "z",
+                        "data-type": {
+                            "id": 38,
+                            "name": "int"
+                        },
+                        "is-reference": false,
+                        "is-const": false,
+                        "init": {
+                            "id": 41,
+                            "type": ".",
+                            "left": {
+                                "type": "identifier",
+                                "value": "v",
+                                "id": 40,
+                                "line": 20,
+                                "column": 11
+                            },
+                            "right": {
+                                "id": 39,
+                                "line": 20,
+                                "column": 11,
+                                "type": "function-call",
+                                "name": "size",
+                                "arguments": []
+                            },
+                            "line": 20,
+                            "column": 11
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
