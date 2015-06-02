@@ -43,7 +43,7 @@
             },
             "parameters": [],
             "block": {
-                "id": 42,
+                "id": 59,
                 "statements": [
                     {
                         "id": 8,
@@ -267,6 +267,110 @@
                             "line": 20,
                             "column": 11
                         }
+                    },
+                    {
+                        "id": 46,
+                        "type": "=",
+                        "left": {
+                            "id": 44,
+                            "type": "[]",
+                            "left": {
+                                "type": "identifier",
+                                "value": "v",
+                                "id": 42,
+                                "line": 21,
+                                "column": 3
+                            },
+                            "right": {
+                                "type": "int",
+                                "value": 0,
+                                "id": 43,
+                                "line": 21,
+                                "column": 5
+                            }
+                        },
+                        "right": {
+                            "type": "int",
+                            "value": 1,
+                            "id": 45,
+                            "line": 21,
+                            "column": 10
+                        },
+                        "line": 21,
+                        "column": 3
+                    },
+                    {
+                        "id": 51,
+                        "type": "=",
+                        "left": {
+                            "id": 49,
+                            "type": "[]",
+                            "left": {
+                                "type": "identifier",
+                                "value": "s",
+                                "id": 47,
+                                "line": 22,
+                                "column": 3
+                            },
+                            "right": {
+                                "type": "int",
+                                "value": 0,
+                                "id": 48,
+                                "line": 22,
+                                "column": 5
+                            }
+                        },
+                        "right": {
+                            "type": "string",
+                            "value": "a",
+                            "id": 50,
+                            "line": 22,
+                            "column": 10
+                        },
+                        "line": 22,
+                        "column": 3
+                    },
+                    {
+                        "id": 58,
+                        "type": "=",
+                        "left": {
+                            "id": 56,
+                            "type": "[]",
+                            "left": {
+                                "id": 54,
+                                "type": "[]",
+                                "left": {
+                                    "type": "identifier",
+                                    "value": "m",
+                                    "id": 52,
+                                    "line": 23,
+                                    "column": 3
+                                },
+                                "right": {
+                                    "type": "int",
+                                    "value": 0,
+                                    "id": 53,
+                                    "line": 23,
+                                    "column": 5
+                                }
+                            },
+                            "right": {
+                                "type": "int",
+                                "value": 0,
+                                "id": 55,
+                                "line": 23,
+                                "column": 8
+                            }
+                        },
+                        "right": {
+                            "type": "int",
+                            "value": 1,
+                            "id": 57,
+                            "line": 23,
+                            "column": 13
+                        },
+                        "line": 23,
+                        "column": 3
                     }
                 ]
             }

@@ -18,4 +18,7 @@ int main() {
   string s = "12312321";
   x = s.empty();
   int z = v.size();
+  v[0] = 1;
+  s[0] = 'a';
+  m[0][0] = 1;
 }

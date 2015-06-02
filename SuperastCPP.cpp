@@ -344,6 +344,16 @@ bool SuperastCPP::TraverseCXXOperatorCallExpr(clang::CXXOperatorCallExpr* operat
       sonValue = functionValue;
     }
   }
+  else if (functionName == VECTOR_POS_NAME) {
+    // Operator []
+    TRY_TO(TraverseStmt(operatorCallExpr->getArg(0)));
+    rapidjson::Value leftValue(rapidjson::kObjectType);
+    leftValue = sonValue;
+    TRY_TO(TraverseStmt(operatorCallExpr->getArg(1)));
+    rapidjson::Value rightValue(rapidjson::kObjectType);
+    rightValue = sonValue;
+    sonValue = createBinOpValue("[]", leftValue, rightValue);
+  }
   else {
     std::cerr << "Operator call not defined: " << functionName << std::endl;
   }
