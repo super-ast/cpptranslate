@@ -533,14 +533,7 @@ bool SuperastCPP::TraverseFunctionDecl(clang::FunctionDecl* functionDecl) {
   addId(functionValue);
   addPos(functionValue, functionDecl);
   
-  // Check if it is a function definition or a call
-  if (functionDecl->isThisDeclarationADefinition()) {
-    functionValue.AddMember("type", "function-declaration", allocator);
-  }
-  else {
-    functionValue.AddMember("type", "function-call", allocator);
-  }
-
+  functionValue.AddMember("type", "function-declaration", allocator);
   // Add the name
   functionValue.AddMember(
       "name", 
@@ -567,12 +560,17 @@ bool SuperastCPP::TraverseFunctionDecl(clang::FunctionDecl* functionDecl) {
   // Add parameters to functionValue
   functionValue.AddMember("parameters", parametersValue, allocator);
   
-  // If this is a function definition
+  // If this is a function definition, traverse definition.
   if (functionDecl->isThisDeclarationADefinition()) {
     TRY_TO(TraverseStmt(functionDecl->getBody()));
     ensureSonIsArray();
     rapidjson::Value blockValue = createBlockValue(sonValue);
     functionValue.AddMember("block", blockValue, allocator);
+  }
+  else {
+    // If not definition, add empty block
+    rapidjson::Value emptyArray(rapidjson::kArrayType);
+    functionValue.AddMember("block", createBlockValue(emptyArray), allocator);
   }
 
   // END BODY TRAVERSE

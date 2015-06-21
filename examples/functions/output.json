@@ -6,162 +6,178 @@
             "line": 1,
             "column": 1,
             "type": "function-declaration",
-            "name": "ans",
+            "name": "declaration",
             "return-type": {
                 "id": 2,
+                "name": "void"
+            },
+            "parameters": [],
+            "block": {
+                "id": 3,
+                "statements": []
+            }
+        },
+        {
+            "id": 4,
+            "line": 3,
+            "column": 1,
+            "type": "function-declaration",
+            "name": "ans",
+            "return-type": {
+                "id": 5,
                 "name": "int"
             },
             "parameters": [],
             "block": {
-                "id": 26,
+                "id": 29,
                 "statements": [
                     {
-                        "id": 3,
-                        "line": 2,
+                        "id": 6,
+                        "line": 4,
                         "column": 3,
                         "type": "variable-declaration",
                         "name": "x",
                         "data-type": {
-                            "id": 4,
+                            "id": 7,
                             "name": "int"
                         },
                         "is-reference": false,
                         "is-const": false
                     },
                     {
-                        "id": 5,
-                        "line": 3,
+                        "id": 8,
+                        "line": 5,
                         "column": 3,
                         "type": "variable-declaration",
                         "name": "a",
                         "data-type": {
-                            "id": 6,
+                            "id": 9,
                             "name": "int"
                         },
                         "is-reference": false,
                         "is-const": false
                     },
                     {
-                        "id": 7,
-                        "line": 3,
+                        "id": 10,
+                        "line": 5,
                         "column": 3,
                         "type": "variable-declaration",
                         "name": "b",
                         "data-type": {
-                            "id": 8,
+                            "id": 11,
                             "name": "int"
                         },
                         "is-reference": false,
                         "is-const": false
                     },
                     {
-                        "id": 9,
-                        "line": 3,
+                        "id": 12,
+                        "line": 5,
                         "column": 3,
                         "type": "variable-declaration",
                         "name": "c",
                         "data-type": {
-                            "id": 10,
+                            "id": 13,
                             "name": "int"
                         },
                         "is-reference": false,
                         "is-const": false
                     },
                     {
-                        "id": 17,
+                        "id": 20,
                         "type": "=",
                         "left": {
                             "type": "identifier",
                             "value": "a",
-                            "id": 11,
-                            "line": 4,
+                            "id": 14,
+                            "line": 6,
                             "column": 3
                         },
                         "right": {
-                            "id": 16,
+                            "id": 19,
                             "type": "=",
                             "left": {
                                 "type": "identifier",
                                 "value": "b",
-                                "id": 12,
-                                "line": 4,
+                                "id": 15,
+                                "line": 6,
                                 "column": 5
                             },
                             "right": {
-                                "id": 15,
+                                "id": 18,
                                 "type": "=",
                                 "left": {
                                     "type": "identifier",
                                     "value": "c",
-                                    "id": 13,
-                                    "line": 4,
+                                    "id": 16,
+                                    "line": 6,
                                     "column": 7
                                 },
                                 "right": {
                                     "type": "int",
                                     "value": 42,
-                                    "id": 14,
-                                    "line": 4,
+                                    "id": 17,
+                                    "line": 6,
                                     "column": 9
                                 },
-                                "line": 4,
+                                "line": 6,
                                 "column": 7
                             },
-                            "line": 4,
+                            "line": 6,
                             "column": 5
                         },
-                        "line": 4,
+                        "line": 6,
                         "column": 3
                     },
                     {
-                        "id": 18,
-                        "line": 5,
+                        "id": 21,
+                        "line": 7,
                         "column": 3,
                         "type": "return",
                         "expression": {
-                            "id": 25,
+                            "id": 28,
                             "type": "=",
                             "left": {
                                 "type": "identifier",
                                 "value": "a",
-                                "id": 19,
-                                "line": 5,
+                                "id": 22,
+                                "line": 7,
                                 "column": 10
                             },
                             "right": {
-                                "id": 24,
+                                "id": 27,
                                 "type": "=",
                                 "left": {
                                     "type": "identifier",
                                     "value": "b",
-                                    "id": 20,
-                                    "line": 5,
+                                    "id": 23,
+                                    "line": 7,
                                     "column": 12
                                 },
                                 "right": {
-                                    "id": 23,
+                                    "id": 26,
                                     "type": "=",
                                     "left": {
                                         "type": "identifier",
                                         "value": "c",
-                                        "id": 21,
-                                        "line": 5,
+                                        "id": 24,
+                                        "line": 7,
                                         "column": 14
                                     },
                                     "right": {
                                         "type": "int",
                                         "value": 42,
-                                        "id": 22,
-                                        "line": 5,
+                                        "id": 25,
+                                        "line": 7,
                                         "column": 16
                                     },
-                                    "line": 5,
+                                    "line": 7,
                                     "column": 14
                                 },
-                                "line": 5,
+                                "line": 7,
                                 "column": 12
                             },
-                            "line": 5,
+                            "line": 7,
                             "column": 10
                         }
                     }
@@ -169,35 +185,35 @@
             }
         },
         {
-            "id": 27,
-            "line": 8,
+            "id": 30,
+            "line": 10,
             "column": 1,
             "type": "function-declaration",
             "name": "bf",
             "return-type": {
-                "id": 28,
+                "id": 31,
                 "name": "bool"
             },
             "parameters": [
                 {
-                    "id": 29,
-                    "line": 8,
+                    "id": 32,
+                    "line": 10,
                     "column": 9,
                     "name": "x",
                     "data-type": {
-                        "id": 30,
+                        "id": 33,
                         "name": "int"
                     },
                     "is-reference": false,
                     "is-const": false
                 },
                 {
-                    "id": 31,
-                    "line": 8,
+                    "id": 34,
+                    "line": 10,
                     "column": 16,
                     "name": "b",
                     "data-type": {
-                        "id": 32,
+                        "id": 35,
                         "name": "bool"
                     },
                     "is-reference": true,
@@ -205,65 +221,65 @@
                 }
             ],
             "block": {
-                "id": 42,
+                "id": 45,
                 "statements": [
                     {
-                        "id": 35,
+                        "id": 38,
                         "type": "=",
                         "left": {
                             "type": "identifier",
                             "value": "b",
-                            "id": 33,
-                            "line": 9,
+                            "id": 36,
+                            "line": 11,
                             "column": 3
                         },
                         "right": {
                             "type": "bool",
                             "value": false,
-                            "id": 34,
-                            "line": 9,
+                            "id": 37,
+                            "line": 11,
                             "column": 7
                         },
-                        "line": 9,
+                        "line": 11,
                         "column": 3
                     },
                     {
-                        "id": 36,
-                        "line": 10,
+                        "id": 39,
+                        "line": 12,
                         "column": 3,
                         "type": "return",
                         "expression": {
-                            "id": 41,
+                            "id": 44,
                             "type": "==",
                             "left": {
-                                "id": 39,
+                                "id": 42,
                                 "type": "+",
                                 "left": {
                                     "type": "identifier",
                                     "value": "x",
-                                    "id": 37,
-                                    "line": 10,
+                                    "id": 40,
+                                    "line": 12,
                                     "column": 11
                                 },
                                 "right": {
-                                    "id": 38,
-                                    "line": 10,
+                                    "id": 41,
+                                    "line": 12,
                                     "column": 15,
                                     "type": "function-call",
                                     "name": "ans",
                                     "arguments": []
                                 },
-                                "line": 10,
+                                "line": 12,
                                 "column": 11
                             },
                             "right": {
                                 "type": "int",
                                 "value": 42,
-                                "id": 40,
-                                "line": 10,
+                                "id": 43,
+                                "line": 12,
                                 "column": 25
                             },
-                            "line": 10,
+                            "line": 12,
                             "column": 10
                         }
                     }
@@ -271,35 +287,35 @@
             }
         },
         {
-            "id": 43,
-            "line": 13,
+            "id": 46,
+            "line": 15,
             "column": 1,
             "type": "function-declaration",
             "name": "cf",
             "return-type": {
-                "id": 44,
+                "id": 47,
                 "name": "bool"
             },
             "parameters": [
                 {
-                    "id": 45,
-                    "line": 13,
+                    "id": 48,
+                    "line": 15,
                     "column": 9,
                     "name": "x",
                     "data-type": {
-                        "id": 46,
+                        "id": 49,
                         "name": "int"
                     },
                     "is-reference": false,
                     "is-const": true
                 },
                 {
-                    "id": 47,
-                    "line": 13,
+                    "id": 50,
+                    "line": 15,
                     "column": 22,
                     "name": "y",
                     "data-type": {
-                        "id": 48,
+                        "id": 51,
                         "name": "int"
                     },
                     "is-reference": true,
@@ -307,31 +323,31 @@
                 }
             ],
             "block": {
-                "id": 53,
+                "id": 56,
                 "statements": [
                     {
-                        "id": 49,
-                        "line": 14,
+                        "id": 52,
+                        "line": 16,
                         "column": 3,
                         "type": "return",
                         "expression": {
-                            "id": 52,
+                            "id": 55,
                             "type": "==",
                             "left": {
                                 "type": "identifier",
                                 "value": "x",
-                                "id": 50,
-                                "line": 14,
+                                "id": 53,
+                                "line": 16,
                                 "column": 10
                             },
                             "right": {
                                 "type": "identifier",
                                 "value": "y",
-                                "id": 51,
-                                "line": 14,
+                                "id": 54,
+                                "line": 16,
                                 "column": 15
                             },
-                            "line": 14,
+                            "line": 16,
                             "column": 10
                         }
                     }
@@ -339,22 +355,22 @@
             }
         },
         {
-            "id": 54,
-            "line": 17,
+            "id": 57,
+            "line": 19,
             "column": 1,
             "type": "function-declaration",
             "name": "vf",
             "return-type": {
-                "id": 55,
+                "id": 58,
                 "name": "void"
             },
             "parameters": [],
             "block": {
-                "id": 57,
+                "id": 60,
                 "statements": [
                     {
-                        "id": 56,
-                        "line": 18,
+                        "id": 59,
+                        "line": 20,
                         "column": 3,
                         "type": "function-call",
                         "name": "vf",
@@ -364,45 +380,25 @@
             }
         },
         {
-            "id": 58,
-            "line": 21,
+            "id": 61,
+            "line": 23,
             "column": 1,
             "type": "function-declaration",
             "name": "main",
             "return-type": {
-                "id": 59,
+                "id": 62,
                 "name": "int"
             },
             "parameters": [],
             "block": {
-                "id": 76,
+                "id": 79,
                 "statements": [
                     {
-                        "id": 60,
-                        "line": 22,
+                        "id": 63,
+                        "line": 24,
                         "column": 3,
                         "type": "variable-declaration",
                         "name": "b",
-                        "data-type": {
-                            "id": 61,
-                            "name": "bool"
-                        },
-                        "is-reference": false,
-                        "is-const": false,
-                        "init": {
-                            "type": "bool",
-                            "value": true,
-                            "id": 62,
-                            "line": 22,
-                            "column": 12
-                        }
-                    },
-                    {
-                        "id": 63,
-                        "line": 23,
-                        "column": 3,
-                        "type": "variable-declaration",
-                        "name": "c",
                         "data-type": {
                             "id": 64,
                             "name": "bool"
@@ -410,8 +406,28 @@
                         "is-reference": false,
                         "is-const": false,
                         "init": {
+                            "type": "bool",
+                            "value": true,
                             "id": 65,
-                            "line": 23,
+                            "line": 24,
+                            "column": 12
+                        }
+                    },
+                    {
+                        "id": 66,
+                        "line": 25,
+                        "column": 3,
+                        "type": "variable-declaration",
+                        "name": "c",
+                        "data-type": {
+                            "id": 67,
+                            "name": "bool"
+                        },
+                        "is-reference": false,
+                        "is-const": false,
+                        "init": {
+                            "id": 68,
+                            "line": 25,
                             "column": 12,
                             "type": "function-call",
                             "name": "bf",
@@ -419,35 +435,35 @@
                                 {
                                     "type": "int",
                                     "value": 0,
-                                    "id": 66,
-                                    "line": 23,
+                                    "id": 69,
+                                    "line": 25,
                                     "column": 15
                                 },
                                 {
                                     "type": "identifier",
                                     "value": "b",
-                                    "id": 67,
-                                    "line": 23,
+                                    "id": 70,
+                                    "line": 25,
                                     "column": 18
                                 }
                             ]
                         }
                     },
                     {
-                        "id": 68,
-                        "line": 24,
+                        "id": 71,
+                        "line": 26,
                         "column": 3,
                         "type": "variable-declaration",
                         "name": "x",
                         "data-type": {
-                            "id": 69,
+                            "id": 72,
                             "name": "int"
                         },
                         "is-reference": false,
                         "is-const": true,
                         "init": {
-                            "id": 70,
-                            "line": 24,
+                            "id": 73,
+                            "line": 26,
                             "column": 17,
                             "type": "function-call",
                             "name": "ans",
@@ -455,18 +471,18 @@
                         }
                     },
                     {
-                        "id": 75,
+                        "id": 78,
                         "type": "=",
                         "left": {
                             "type": "identifier",
                             "value": "c",
-                            "id": 71,
-                            "line": 25,
+                            "id": 74,
+                            "line": 27,
                             "column": 3
                         },
                         "right": {
-                            "id": 72,
-                            "line": 25,
+                            "id": 75,
+                            "line": 27,
                             "column": 7,
                             "type": "function-call",
                             "name": "cf",
@@ -474,20 +490,20 @@
                                 {
                                     "type": "identifier",
                                     "value": "x",
-                                    "id": 73,
-                                    "line": 25,
+                                    "id": 76,
+                                    "line": 27,
                                     "column": 10
                                 },
                                 {
                                     "type": "identifier",
                                     "value": "x",
-                                    "id": 74,
-                                    "line": 25,
+                                    "id": 77,
+                                    "line": 27,
                                     "column": 13
                                 }
                             ]
                         },
-                        "line": 25,
+                        "line": 27,
                         "column": 3
                     }
                 ]

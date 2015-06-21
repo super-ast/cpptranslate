@@ -1,3 +1,5 @@
+void declaration();
+
 int ans() {
   int x;
   int a,b,c;
