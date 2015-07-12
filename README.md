@@ -13,10 +13,12 @@ provided in the folder `examples`.
 
 ### Install cpptranslate
 
-	cd ~/clang-llvm/llvm/tools/clang/tools/extra/
+	cd ~/clang-llvm/llvm/tools/clang/tools/extra
 	git clone https://github.com/super-ast/cpptranslate
 	echo 'add_subdirectory(cpptranslate)' >> CMakeLists.txt
-	cd ~/clang-llvm/build/
+	cd ~/clang-llvm
+	mkdir build
+	cd build
 	ninja
 
 The resulting binary will be found in `~/clang-llvm/build/bin/cpptranslate`.
