@@ -2,7 +2,7 @@
 C++ code to super-ast translator. Some examples of the translation are
 provided in the folder `examples`.
 
-### Install clang
+### Download clang
 
 	mkdir ~/clang-llvm && cd ~/clang-llvm
 	git clone http://llvm.org/git/llvm.git
@@ -11,11 +11,14 @@ provided in the folder `examples`.
 	cd clang/tools
 	git clone http://llvm.org/git/clang-tools-extra.git extra
 
-### Install cpptranslate
+### Download cpptranslate
 
 	cd ~/clang-llvm/llvm/tools/clang/tools/extra
 	git clone https://github.com/super-ast/cpptranslate
 	echo 'add_subdirectory(cpptranslate)' >> CMakeLists.txt
+
+### Build cpptranslate
+
 	cd ~/clang-llvm
 	mkdir build
 	cd build
