@@ -37,7 +37,7 @@ do {                                                                           \
 } while (0)
 
 // Custom category for command-line option
-static llvm::cl::OptionCategory SuperastCPPCategory("superast-cpp options");
+static llvm::cl::OptionCategory SuperastCPPCategory("cpptranslate options");
 
 // Output configuration
 const std::string PRINT_NAME = "operator<<";
