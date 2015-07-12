@@ -19,6 +19,7 @@ provided in the folder `examples`.
 	cd ~/clang-llvm
 	mkdir build
 	cd build
+	cmake -G Ninja ../llvm -DLLVM_BUILD_TESTS=OFF
 	ninja
 
 The resulting binary will be found in `~/clang-llvm/build/bin/cpptranslate`.
